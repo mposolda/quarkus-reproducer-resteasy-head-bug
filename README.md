@@ -1,4 +1,15 @@
-# code-with-quarkus
+# Quarkus bug reproducer
+
+This project was created as a reproducer for a bug https://github.com/quarkusio/quarkus/issues/49172 .
+
+It can be reproduced by running:
+```
+mvnw test
+```
+
+(Tested with OpenJDK 21 and Maven 3.9.8)
+
+## Original README - code-with-quarkus
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
